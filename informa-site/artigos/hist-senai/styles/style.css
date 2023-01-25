@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: var(--font-family);
+}
+
+:root{
+  --font-family: 'Roboto Slab', serif;
+  --cor01: #F2F2F2;
+  --cor02: #8DC3F2;
+  --cor03: #5CACF2;
+  --cor04: #0583F2;
+  --cor05: #0D0D0D;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  max-width: 1300px;
+  margin: auto;
+}
+
+body{
+  max-width: 1300px;
+  margin: auto auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header{
+  background-color: var(--cor04);
+  height: 80px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+.logo{
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-button{
+  border: 0;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.nav-button{
+  color: #fff;
+}
+
+#myNav{
+  height: 100%;
+  grid-template-rows: repeat(9, 100px);
+  display: grid;
+}
+
+.overlay{
+  background-color: var(--cor04);
+  z-index: 9;
+  position: fixed;
+  left: 0;
+  top: 2%;
+  overflow:hidden;
+  transition: all 1s;
+  display: flex;
+  text-align: start;
+  border-radius: 2px;
+}
+
+.overlay a{
+  display: block;
+  color: var(--cor01);
+  padding: 8px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.overlay-content{
+  height: 112px;
+  grid-row: 2;
+  margin: 0 10px;
+}
+.overlay a:hover{
+  background-color: var(--cor01);
+  color: var(--cor04);
+}
+
+.clock{
+  display:flex;
+  height: 50px;
+  font-size: 2em;
+  margin: auto ;
+  grid-row: 1;
+  cursor: pointer;
+  color: var(--cor01);
+}
+
+.close-btn{
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  font-size: 3em;
+  color: var(--cor01);
+  cursor: pointer;
+}
+
+main
+{
+  background-color: white;
+  min-width: 300px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin: auto;
+  padding: 20px;
+  text-align: start;
+}
+
+main h1{
+  color: var(--cor05);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main p{
+  margin: 15px 0;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+main strong{
+  color: var(--cor04);
+  font-weight: bold;
+}
+
+main a 
+{
+  color: var(--cor4);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+main a:hover 
+{
+  text-decoration: underline;
+  color: var(--cor04);
+}
+
+main img 
+{
+  width: 100%;
+}
+
+.bugdroid
+{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+main h2{
+  margin-top: 50px;
+  color: var(--cor05);
+  background: var(--cor02);
+  padding-left: 10px;
+}
+
+aside{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: var(--cor01);
+  border-radius: 2px;
+}
+
+aside h3{
+  background-color: var(--cor03);
+  padding: 10px;
+  margin: -10px -10px 0 -10px ;
+  border-radius: 2px 2px 0px 0px;
+}
+
+aside ul{
+  list-style-position: inside;
+  columns: 2;
+}
+
+footer{
+  background-color: var(--cor04);
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+footer a{
+  color: white;
+  font: bolder;
+  text-decoration: none;
+}
+
+div.video {
+  background-color: var(--cor03);
+  margin-bottom: 30px;
+  margin: 0 -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 50%;
+}
+
+div.video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+  width: 95%;
+  height: 90%;
+}
+
+@media (max-width: 600px){
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  body{
+    font-family: var(--font-family);
+  }
+  
+  :root{
+    --font-family: 'Roboto Slab', serif;
+    --cor01: #F2F2F2;
+    --cor02: #8DC3F2;
+    --cor03: #5CACF2;
+    --cor04: #0583F2;
+    --cor05: #0D0D0D;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: var(--cor04);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+  }
+  
+  .logo{
+    height: 50px;
+    margin-left: 5%;
+  }
+  
+  nav ul{
+    display: flex;
+    flex: wrap;
+    list-style: none;
+    font-size: 1em;
+  }
+  
+  nav ul li{
+    margin: 0 5px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: var(--cor01);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 8px 15px;
+  }
+  
+  nav ul li a.active,
+    nav ul li a:hover{
+      background-color: var(--cor01);
+      color: var(--cor04);
+  }
+
+  .contatos{
+    display: none;
+  }
+
+  main
+{
+  background-color: white;
+  min-width: 300px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin: auto;
+  padding: 20px;
+  text-align: start;
+}
+  
+}
