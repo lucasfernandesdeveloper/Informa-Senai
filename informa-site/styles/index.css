@@ -257,14 +257,16 @@ a{
 
 .main > h1{
   font-size: 2.5em;
-
 }
 
 sidenav{
-  border: 1px solid grey;
+  height: 475px;
   grid-column: 1/4;
-  grid-row: 10 /15;
-  margin: 10% 0 0 10%;
+  grid-row: 10 /14;
+  margin: 5% 0 0 10%;
+  background-color: rgba(169, 169, 169, 0.337);
+  border-radius: 5px;
+  box-shadow: rgba(169, 169, 169, 0.337) 0px 0px 10px;
 }
 
 .em_alta{
@@ -288,6 +290,10 @@ sidenav{
   margin: auto 3%;
   font-weight: bold;
   font-size: 0.9em;
+}
+
+.alta-6 p{
+  margin: auto 3%;
 }
 
 .title_em_alta{
@@ -323,10 +329,12 @@ sidenav{
 }
 
 .materia{
-  margin: 0 5%;
-  height: 175px;
+  margin: 2% 2%;
+  height: 150px;
   display: flex;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  background-color: rgba(169, 169, 169, 0.337);
+  border-radius: 5px;
+  box-shadow: rgba(169, 169, 169, 0.337) 0px 0px 10px;
 }
 
 .text_materias{
@@ -355,14 +363,14 @@ sidenav{
 }
 
 .img-materia{
-  width: 30%;
+  width: 20%;
   margin: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-  height: 65%;
+  height: 60%;
 }
 
 .main-2{
-  height: 90%;
+  height: 98%;
   width: 98%;
   grid-column: 1/6;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/informa-site/imagens/moon-landing-g98dce3bff_640.jpg);
@@ -377,7 +385,7 @@ sidenav{
 }
 
 .main-3{
-  height: 90%;
+  height: 98%;
   width: 98%;
   grid-column: 6/11;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/informa-site/imagens/image-g1cb7c885a_640.png);
@@ -405,7 +413,6 @@ sidenav{
   align-items: center;
   justify-content: flex-end;
 }
-
 
 footer{
   margin-top: 2%;
