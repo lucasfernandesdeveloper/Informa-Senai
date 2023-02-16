@@ -297,7 +297,7 @@ sidenav{
 }
 
 .title_em_alta{
-  height: 40px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -334,7 +334,7 @@ sidenav{
   display: flex;
   background-color: rgba(169, 169, 169, 0.337);
   border-radius: 5px;
-  box-shadow: rgba(169, 169, 169, 0.337) 0px 0px 10px;
+  box-shadow: rgba(169, 169, 169, 0.481) 0px 0px 10px;
 }
 
 .text_materias{
@@ -688,10 +688,12 @@ a{
 }
 
 sidenav{
-  border: 1px solid grey;
   grid-column: 1/4;
   grid-row: 10 /15;
-  margin: 10% 0 0 10%;
+  margin: 5% 0 0 10%;
+  background-color: rgba(169, 169, 169, 0.337);
+  border-radius: 5px;
+  box-shadow: rgba(169, 169, 169, 0.337) 0px 0px 10px;
 }
 
 .em_alta{
@@ -718,7 +720,7 @@ sidenav{
 }
 
 .title_em_alta{
-  height: 30px;
+  height: 40px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -750,17 +752,19 @@ sidenav{
 }
 
 .materia{
-  margin: 0 5%;
-  height: 175px;
+  margin: 5% 5%;
+  height: 145px;
   display: flex;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  background-color: rgba(169, 169, 169, 0.337);
+  border-radius: 5px;
+  box-shadow: rgba(169, 169, 169, 0.481) 0px 0px 10px;
 }
 
 .text_materias{
   display: flex;
   flex-direction: column;
   width: 70%;
-  margin: auto 1% auto 3%;
+  margin: auto 1% auto 1%;
 }
 
 
@@ -783,9 +787,9 @@ sidenav{
 
 .img-materia{
   width: 30%;
-  margin: auto;
+  margin: auto 3%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-  height: 50%;
+  height: 40%;
 }
 
 .main-2{
@@ -1065,7 +1069,7 @@ footer p{
   }
   
   .main-1{
-    height: 85%;
+    height: 80%;
     width: 95%;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -1101,7 +1105,9 @@ footer p{
     grid-column: 1/11;
     grid-row: 17 /19;
     margin: auto 10px;
-    box-shadow: 0 0 10px  rgba(128, 128, 128, 0.541);
+    background-color: rgba(169, 169, 169, 0.337);
+    border-radius: 5px;
+    box-shadow: rgba(169, 169, 169, 0.337) 0px 0px 10px;
   }
   
   .em_alta{
@@ -1151,11 +1157,18 @@ footer p{
     display: none;
   }
 
+  .alta-3{
+    border-bottom: none;
+  }
+
   .materias{
     grid-column: 1 / 11;
     grid-row: 9/ 14;
     margin: auto 10px;
     box-shadow: 0 0 10px  rgba(128, 128, 128, 0.541);
+    background-color: rgba(169, 169, 169, 0.337);
+    border-radius: 5px;
+    box-shadow: rgba(169, 169, 169, 0.481) 0px 0px 10px;
   }
   
   .materia{
@@ -1178,6 +1191,7 @@ footer p{
     font-weight: bold;
     text-align:start;
     color: var(--cor04);
+    word-wrap: normal;
   }
   
   .materias h1{
