@@ -38,9 +38,6 @@ a{
   text-decoration: none;
 }
 
-.row{
-  margin-bottom: 10px;
-}
 
 .main-article{
   height: 300px;
@@ -90,7 +87,6 @@ sidenav{
 }
 
 .article{
-  margin: 6px 0px;
   height: 120px;
   padding: 5px;
   display: flex;
@@ -102,7 +98,7 @@ sidenav{
 .article > p{
   display: flex;
   flex-direction: column;
-  width: 73%;
+  width: 70%;
 }
 
 .article p{
@@ -116,7 +112,7 @@ sidenav{
   color: var(--cor15);
   font-size: 1em;
   text-align: start;
-  margin-top: 3%;
+  margin-top: 7px;
 }
 
 .materia-3{
@@ -125,7 +121,7 @@ sidenav{
 
 .img-materia{
   width: 23%;
-  margin: auto 2%;
+  margin: auto 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
   height: 65%;
   border-radius: 3px;
@@ -133,7 +129,7 @@ sidenav{
 
 
 .main > p, h1{
-  margin-left: 2%;
+  margin-left: 7px;
   font-weight: 600;
   color: var(--cor01);
 }
